@@ -10,9 +10,8 @@ copyright = "CC BY-NC 4.0"
   defaultTheme    = "dark"
   enableThemeToggle = true
   showReadTime    = true
+  mainSections = ["blog"]
   
-  # --- YOUR LANDING PAGE CONTENT ---
-  # This is what appears on the homepage
   homeSubtitle = "Backend ➜ DevOps | Python | Go"
 
 [[params.social]]
