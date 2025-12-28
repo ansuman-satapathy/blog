@@ -2,43 +2,47 @@ baseURL = "https://ansuman-satapathy.github.io/"
 languageCode = "en-us"
 title = "Ansuman"
 theme = "hello-friend-ng"
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+copyright = "CC BY-NC 4.0"
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
-  defaultTheme    = "dark" 
+  defaultTheme    = "dark"
   enableThemeToggle = true
   showReadTime    = true
+  
+  # --- YOUR LANDING PAGE CONTENT ---
+  # This is what appears on the homepage
+  homeSubtitle = "Backend ➜ DevOps | Python | Go"
 
-  # --- LANDING PAGE SETTINGS ---
-  [params.home]
-    introHeight = "fullheight"
-    showLatest = false
-    
-  [params.home.profile]
-    enable = true
-    title = "Ansuman"
-    subtitle = "Backend ➜ DevOps | Python | Go"    
-    # image = "img/avatar.jpg" 
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/ansuman-satapathy"
 
-    # Your Social Links on the Landing Page
-    [[params.home.profile.social]]
-      icon = "github"
-      url = "https://github.com/ansuman-satapathy"
-    [[params.home.profile.social]]
-      icon = "linkedin"
-      url = "https://linkedin.com/in/ansuman-satapathy"
-    [[params.home.profile.social]]
-      icon = "mail"
-      url = "mailto:satapathyansuman12@gmail.com"
+[[params.social]]
+  name = "linkedin"
+  url  = "https://linkedin.com/in/ansuman-satapathy"
 
+[[params.social]]
+  name = "email"
+  url  = "mailto:satapathyansuman12@gmail.com"
+
+# --- MENU ---
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "/about/"
+    weight     = 1
+
   [[menu.main]]
-    identifier = "posts"
-    name       = "Logs"
-    url        = "/posts/"
+    identifier = "blog"
+    name       = "Blog"   # Renamed from Logs
+    url        = "/blog/" # Renamed from /posts/
+    weight     = 2
+
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects/"
+    weight     = 3
