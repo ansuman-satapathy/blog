@@ -1,5 +1,3 @@
 ---
-title: "My Blog"
+title: "Latest Blogs"
 ---
-
-Notes, guides, and experiments on DevOps, development, Linux, and other things I’m learning.

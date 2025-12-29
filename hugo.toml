@@ -11,8 +11,14 @@ copyright = "CC BY-NC 4.0"
   enableThemeToggle = true
   showReadTime    = true
   mainSections = ["blog"]
-  
-  homeSubtitle = "Backend ➜ DevOps | Python | Go"
+  homeSubtitle = "Backend Engineer | Go · DevOps · Linux"
+
+  [params.logo]
+    logoText = "ansuman"      
+    logoHomeLink = "/"    
+    logoCursorDisabled = false
+    logoCursorColor = "#932ec9ff"
+    logoCursorAnimate = "2s"   
 
 [[params.social]]
   name = "github"
@@ -45,3 +51,8 @@ copyright = "CC BY-NC 4.0"
     name       = "Projects"
     url        = "/projects/"
     weight     = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
