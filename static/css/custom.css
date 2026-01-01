@@ -1,9 +1,28 @@
 code[class*="language-"],
 pre[class*="language-"] {
-    text-shadow: none !important;
-    font-family: monospace !important;
+  text-shadow: none !important;
+  font-family: monospace !important;
 }
 
 .token {
-    text-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* --- 1. LIGHT MODE (Perfect - DO NOT TOUCH) --- */
+:not(pre) > code {
+  background-color: rgba(147, 46, 201, 0.1) !important;
+  color: #6b2191 !important;
+  border: 1px solid rgba(147, 46, 201, 0.2) !important;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+body.dark-theme :not(pre) > code,
+body.dark :not(pre) > code,
+[data-theme="dark"] :not(pre) > code {
+  background-color: rgba(147, 46, 201, 0.15) !important;
+  color: #e9d5ff !important;
+  border: 1px solid rgba(147, 46, 201, 0.5) !important;
 }

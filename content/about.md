@@ -5,15 +5,15 @@ draft: false
 layout: "simple"
 ---
 
-## I'm Ansuman!
+## Hi, I'm Ansuman.
 
-I am a backend developer who also manages and enjoys the Ops side of things. Working at a small company means I own the code from the editor to the server. I write the application logic, but I also build and manage the deployment pipelines to keep it running.
+I'm a backend developer who accidentally started enjoying the Ops side of things a little too much.
 
-I’ve always been a Linux tinkerer (I've broken my fair share of them), so taking over the CI/CD workflows felt natural. I probably enjoyed it a bit more than I'd like to admit.
+I work at a small company, which means I don't just write the code. I have to make sure it actually runs somewhere other than my laptop. I write the application logic, but I also build the pipelines that ship it to the server. I’ve always been a Linux tinkerer (Broken my fair share of them), so taking over the CI/CD workflows felt weirdly natural.
 
-I don't want to be "just a dev" or "just an ops guy." So, here I am trying to find my place in the intersection of these roles. I am no Linus, but I would like to share my journey and the things I learn along the way. Mostly for myself when I am lost, and also to help others that might be in the same boat.
+I’m not trying to force a specific title. I just hate black boxes. If I write the code, I want to understand exactly how it runs on the server and how to fix it when it inevitably crashes.
 
-Right now, I’m spending my time building with **Go** and figuring out the moving parts of **Kubernetes**, while keeping my **Docker** and **GitHub Actions** workflows as clean as possible.
+I created this site to document that journey. Mostly so I can look back later and remember how I fixed that one specific Kubernetes error, but also to help anyone else who might be stuck in the same boat. You will also find my projects here, along with the documentation covering how (and why) I built them.
 
 <style>
 .footer, .pagination {
