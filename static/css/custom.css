@@ -206,3 +206,50 @@ html[data-theme="light"] body {
     color: #222 !important;
   }
 }
+
+@media (max-width: 684px) {
+  .content-center h1 {
+    font-size: 1.8rem !important;
+  }
+
+  .content-center main {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-center h1 {
+    font-size: 1.7rem !important;
+  }
+
+  .content-center p {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .content-center h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .content-center p {
+    font-size: 0.85rem !important;
+  }
+}
+
+@media (max-width: 385px) {
+  .content-center p {
+    font-size: 0.82rem !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .content-center h1 {
+    font-size: 1.4rem !important;
+  }
+
+  .content-center p {
+    font-size: 0.8rem !important;
+  }
+}

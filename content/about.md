@@ -15,6 +15,8 @@ I’m not trying to force a specific title. I just hate black boxes. If I write 
 
 I created this site to document that journey. Mostly so I can look back later and remember how I fixed that one specific Kubernetes error, but also to help anyone else who might be stuck in the same boat. You will also find my projects here, along with the documentation covering how (and why) I built them.
 
+If you actually want to read this stuff, you can [subscribe via RSS](/index.xml).
+
 <style>
 .footer, .pagination {
     border-top: none !important;

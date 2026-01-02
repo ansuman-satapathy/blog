@@ -35,6 +35,8 @@ params:
       url: "https://linkedin.com/in/ansuman-satapathy"
     - name: "email"
       url: "mailto:satapathyansuman12@gmail.com"
+    - name: "rss"
+      url: "/index.xml"
 
 menu:
   main:
